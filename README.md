@@ -70,11 +70,11 @@ An optional server deployment can stay online to coordinate an account's authori
 
 ## Public upstream contributions
 
-When this index was last checked on **2026-10-28 (UTC+08:00)**, public GitHub records showed **51 merged Pull Requests** authored by this account:
+When this index was last checked on **2026-10-28 (UTC+08:00)**, public GitHub records showed **53 merged Pull Requests** authored by this account:
 
 | Category | Count |
 | --- | ---: |
-| Upstream engineering contributions | 47 |
+| Upstream engineering contributions | 49 |
 | SWE-bench-Live submission packages | 4 |
 
 The engineering work covers reliability, type safety, evaluator correctness, Windows compatibility, testing, cloud configuration, compiled-kernel correctness, storage behavior, mobile accessibility, runtime policy enforcement, OpenTelemetry compatibility, and CLI configuration behavior.
@@ -84,7 +84,8 @@ The engineering work covers reliability, type safety, evaluator correctness, Win
 | Project | Merged contribution | Scope |
 | --- | --- | --- |
 | Tencent TeamAI CLI | [#1507](https://github.com/Tencent/teamai-cli/pull/1507), [#1494](https://github.com/Tencent/teamai-cli/pull/1494), [#1491](https://github.com/Tencent/teamai-cli/pull/1491), [#1474](https://github.com/Tencent/teamai-cli/pull/1474), [#1473](https://github.com/Tencent/teamai-cli/pull/1473) | Clarifies MCP delivery-report parse failures, makes Windows IDE project gates reliable, uses native temporary paths in Copilot fixtures, and adds workspace-scope member-setting overlays with provenance. |
-| OpenTelemetry Kotlin | [#1325](https://github.com/open-telemetry/opentelemetry-kotlin/pull/1325) | Enforces span attribute limits in the compatibility layer. |
+| OpenTelemetry Kotlin | [#1330](https://github.com/open-telemetry/opentelemetry-kotlin/pull/1330), [#1325](https://github.com/open-telemetry/opentelemetry-kotlin/pull/1325) | Compares byte-array scope attributes by content and enforces span attribute limits in the compatibility layer. |
+| Grafana Pathfinder | [#2234](https://github.com/grafana/grafana-pathfinder-app/pull/2234) | Dispatches progress after mark-complete state persists. |
 | Microsoft PyRIT | [#3580](https://github.com/microsoft/PyRIT/pull/3580), [#3577](https://github.com/microsoft/PyRIT/pull/3577) | Avoids dynamic attribute evaluation during single-file initializer discovery and preserves `JsonResponseConfig` subclasses recovered from metadata. |
 | AMD GAIA | [#5913](https://github.com/amd/gaia/pull/5913), [#5887](https://github.com/amd/gaia/pull/5887), [#5865](https://github.com/amd/gaia/pull/5865) | Matches card and PIN variants safely, preserves pytest stdout capture on Windows, and uses vcpkg OpenSSL for Windows C++ builds. |
 
@@ -117,9 +118,8 @@ The engineering work covers reliability, type safety, evaluator correctness, Win
 
 - **[Harbor Hub public job records](https://hub.harborframework.com/users/huong8373tt-beep/jobs):** 155 published jobs with a **100% success rate**, including the complete 89-task Terminal-Bench 2.1 run and five-run records for 63 Terminal-Bench 4.0 tasks.
 - **[Terminal-Bench 2.1 #217](https://github.com/harbor-framework/terminal-bench-2-1/pull/217):** a public submission of **Slai Agent Runtime + GPT-5.5 xhigh**. All 445 containers completed successfully, producing a 100% success rate.
-- **[GAIA official test-set evaluation](https://gaia-benchmark-leaderboard.hf.space/):** **Slai Agent Runtime + gpt-5.6-terra-xhigh** achieved **211/301 (70.10%)**: **L1 78/93 (83.87%)**, **L2 112/159 (70.44%)**, and **L3 21/49 (42.86%)**. The result is also recorded in the [GAIA results dataset](https://huggingface.co/datasets/gaia-benchmark/results_public).
 
-These benchmarks exercise different parts of an Agent system. Software-engineering tasks provide structured environments, tools, tests, and artifacts that support iterative correction. GAIA combines open-ended research, evidence evaluation, multimodal understanding, fine-grained constraints, and exact answer production.
+These benchmarks exercise different parts of an Agent system. Software-engineering tasks provide structured environments, tools, tests, and artifacts that support iterative correction. Open-ended research, evidence evaluation, multimodal understanding, fine-grained constraints, and exact answer generation depend on model capabilities.
 
 The Runtime uses a stable supporting model to apply its reasoning capabilities. Model capability and Runtime design together shape an Agent's performance on complex, long-running work, and the Runtime benefits greatly as model performance improves.
 
