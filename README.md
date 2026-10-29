@@ -74,7 +74,7 @@ When this index was last checked on **2026-10-29 (UTC+08:00)**, public GitHub re
 
 | Category | Count |
 | --- | ---: |
-| Upstream engineering contributions | 53 |
+| Upstream engineering contributions | 54 |
 | SWE-bench-Live submission packages | 4 |
 
 The engineering work covers reliability, type safety, evaluator correctness, Windows compatibility, testing, cloud configuration, compiled-kernel correctness, storage behavior, mobile accessibility, runtime policy enforcement, OpenTelemetry compatibility, and CLI configuration behavior.
