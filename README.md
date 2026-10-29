@@ -70,11 +70,11 @@ An optional server deployment can stay online to coordinate an account's authori
 
 ## Public upstream contributions
 
-When this index was last checked on **2026-10-28 (UTC+08:00)**, public GitHub records showed **53 merged Pull Requests** authored by this account:
+When this index was last checked on **2026-10-29 (UTC+08:00)**, public GitHub records showed **58 merged Pull Requests** authored by this account:
 
 | Category | Count |
 | --- | ---: |
-| Upstream engineering contributions | 49 |
+| Upstream engineering contributions | 53 |
 | SWE-bench-Live submission packages | 4 |
 
 The engineering work covers reliability, type safety, evaluator correctness, Windows compatibility, testing, cloud configuration, compiled-kernel correctness, storage behavior, mobile accessibility, runtime policy enforcement, OpenTelemetry compatibility, and CLI configuration behavior.
@@ -83,7 +83,7 @@ The engineering work covers reliability, type safety, evaluator correctness, Win
 
 | Project | Merged contribution | Scope |
 | --- | --- | --- |
-| Tencent TeamAI CLI | [#1507](https://github.com/Tencent/teamai-cli/pull/1507), [#1494](https://github.com/Tencent/teamai-cli/pull/1494), [#1491](https://github.com/Tencent/teamai-cli/pull/1491), [#1474](https://github.com/Tencent/teamai-cli/pull/1474), [#1473](https://github.com/Tencent/teamai-cli/pull/1473) | Clarifies MCP delivery-report parse failures, makes Windows IDE project gates reliable, uses native temporary paths in Copilot fixtures, and adds workspace-scope member-setting overlays with provenance. |
+| Tencent TeamAI CLI | [#1540](https://github.com/Tencent/teamai-cli/pull/1540), [#1527](https://github.com/Tencent/teamai-cli/pull/1527), [#1529](https://github.com/Tencent/teamai-cli/pull/1529), [#1525](https://github.com/Tencent/teamai-cli/pull/1525), [#1499](https://github.com/Tencent/teamai-cli/pull/1499), [#1507](https://github.com/Tencent/teamai-cli/pull/1507) | Makes Claude duplicate guards work in PowerShell, keeps skill-harness runners parked while locks wait, exposes failed parallel workspace steps, preserves split UTF-8 output, delivers culture blocks to Qoder/Kiro/Trae, and clarifies MCP delivery-report parse failures. |
 | OpenTelemetry Kotlin | [#1330](https://github.com/open-telemetry/opentelemetry-kotlin/pull/1330), [#1325](https://github.com/open-telemetry/opentelemetry-kotlin/pull/1325) | Compares byte-array scope attributes by content and enforces span attribute limits in the compatibility layer. |
 | Grafana Pathfinder | [#2234](https://github.com/grafana/grafana-pathfinder-app/pull/2234) | Dispatches progress after mark-complete state persists. |
 | Microsoft PyRIT | [#3580](https://github.com/microsoft/PyRIT/pull/3580), [#3577](https://github.com/microsoft/PyRIT/pull/3577) | Avoids dynamic attribute evaluation during single-file initializer discovery and preserves `JsonResponseConfig` subclasses recovered from metadata. |
