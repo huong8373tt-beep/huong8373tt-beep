@@ -8,7 +8,7 @@ It can be deployed in two forms:
 
 - An **account-isolated, multi-tenant server Runtime**. One continuously running process can serve multiple accounts while keeping their work and resources separate. It can coordinate the computers, Android devices, server nodes, and other connected resources authorized for each account while continuing long-running work.
 
-Both deployment forms provide the same core capabilities: multiple interaction channels鈥攊ncluding web interfaces, applications, WeChat, QQ, Feishu, and voice鈥攃ross-platform operations, understanding goals, investigating problems, making plans, using tools, carrying work forward, checking results, and operating across authorized platforms and devices.
+Both deployment forms provide the same core capabilities: multiple interaction channels—including web interfaces, applications, WeChat, QQ, Feishu, and voice—cross-platform operations, understanding goals, investigating problems, making plans, using tools, carrying work forward, checking results, and operating across authorized platforms and devices.
 
 A task can start on one device, use another authorized node for platform-specific work, and return its logs, artifacts, and follow-up work to the same account.
 
@@ -26,15 +26,15 @@ The developer usually expresses a direction, goal, or problem in short, natural 
 
 ```text
 Goal or problem
-鈫?investigation and judgment
-鈫?implementation and testing
-鈫?result verification
-鈫?public contribution, record keeping, or follow-up work
+→ investigation and judgment
+→ implementation and testing
+→ result verification
+→ public contribution, record keeping, or follow-up work
 ```
 
 The developer's role is to provide direction, goal descriptions, and feedback from using Slai. That feedback also helps Slai find, maintain, and improve its own runtime framework.
 
-This is an ongoing experiment in human鈥揂I collaboration: lowering the knowledge barrier that keeps many people from participating in real software engineering, while using AI to carry ideas through to implementations, tests, contributions, and results.
+This is an ongoing experiment in human–AI collaboration: lowering the knowledge barrier that keeps many people from participating in real software engineering, while using AI to carry ideas through to implementations, tests, contributions, and results.
 
 ## Model training and capability research
 
@@ -49,7 +49,7 @@ Together, they develop the training, model-operation, and evaluation foundations
 Slai can run on, or connect to:
 
 ```text
-Windows 路 Linux 路 macOS 路 Android
+Windows · Linux · macOS · Android
 ```
 
 Local deployments support conversation, research, file and browser work, authorized desktop or device operations, builds, tests, evaluations, and open-source collaboration.
@@ -62,7 +62,7 @@ The runtime has native foreground/background agent coordination. A task can move
 
 A work thread can continue through tool runs, test failures, CI waits, reviews, checkpoints, and recoverable restarts for hours or days; a project can be maintained across days or months. The ongoing task is preserved across sessions, allowing authorized users to view or continue it from another connected device.
 
-In observed continuous, non-cold-start work, stable requests and provider prompt-cache reuse can yield roughly **95鈥?9%** input-token cache hits, varying by provider, model, and task.
+In observed continuous, non-cold-start work, stable requests and provider prompt-cache reuse can yield roughly **95–99%** input-token cache hits, varying by provider, model, and task.
 
 ### Cloud control plane
 
@@ -76,11 +76,12 @@ Slai's public upstream contribution work began unexpectedly on August 25, 2026.
 
 While running SWE-bench-Live benchmark tasks, Slai Agent Runtime independently found that the migrated evaluator did not preserve the original SWE-bench semantics for pytest `XFAIL` results. Rather than treating this only as a local benchmark issue, it investigated the evaluator behavior, checked the original grading rules, prepared a focused patch, and submitted it to the official Microsoft repository:
 
-- [microsoft/SWE-bench-Live #54](https://github.com/microsoft/SWE-bench-Live/pull/54) — Fix evaluator handling of pytest `XFAIL` outcomes.
+- [microsoft/SWE-bench-Live #54](https://github.com/microsoft/SWE-bench-Live/pull/54) - Fix evaluator handling of pytest `XFAIL` outcomes.
 
 The SWE-bench-Live maintainer publicly thanked this account for the detailed report, confirmed that the migrated evaluator needed to preserve the original SWE-bench behavior, and merged the fix on August 29, 2026. The developer also received the maintainer notification through GitHub email.
 
 After seeing Slai identify the issue, investigate it, implement the correction, and contribute a useful upstream fix, the developer authorized Slai to participate in open-source contributions. The developer provides the account, direction, operating boundaries, and submission responsibility; Slai handles investigation, implementation, testing, submission, and follow-up through normal upstream review processes.
+
 When this index was last checked on **2026-10-29 (UTC+08:00)**, public GitHub records showed **79 merged Pull Requests** authored by this account:
 
 | Category | Count |
@@ -137,6 +138,6 @@ The Runtime uses a stable supporting model to apply its reasoning capabilities. 
 
 Slai is an independently developed Agent framework project. Its design began in April 2026 and reached its current form in early June 2026 through continuous iteration. Slai Agent Runtime continues to run stably.
 
-The developer looks forward to continued advances in foundation models鈥攊ncluding deeper reasoning, more open-ended thinking and exploration, stronger attention mechanisms, and faster token generation鈥攚hich would be a major benefit to Agent Runtime. As models improve, agents can better understand goals, plan multi-step work, explore solutions, and carry tasks through to completion.
+The developer looks forward to continued advances in foundation models—including deeper reasoning, more open-ended thinking and exploration, stronger attention mechanisms, and faster token generation—which would be a major benefit to Agent Runtime. As models improve, agents can better understand goals, plan multi-step work, explore solutions, and carry tasks through to completion.
 
 The project documents the pain points encountered during the early use of AI, the design ideas formed around those challenges, and their implementation in a long-term personal assistant system.
