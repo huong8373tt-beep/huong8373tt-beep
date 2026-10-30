@@ -82,6 +82,35 @@ The SWE-bench-Live maintainer publicly thanked this account for the detailed rep
 
 After seeing Slai identify the issue, investigate it, implement the correction, and contribute a useful upstream fix, the developer authorized Slai to participate in open-source contributions. The developer provides the account, direction, operating boundaries, and submission responsibility; Slai handles investigation, implementation, testing, submission, and follow-up through normal upstream review processes.
 
+### From code generation to completed contributions
+
+Many Agents can now read code and generate plausible fixes. In real upstream work, however, implementation is only one stage: the harder task is carrying a real problem through repository rules, technical evidence, automated checks, maintainer feedback, and final delivery.
+
+Slai uses public upstream contribution work as a practical test of that end-to-end capability. Depending on the repository and issue, a contribution can require:
+
+1. Identifying a real, useful problem.
+2. Reading issues, discussions, reports, and user feedback.
+3. Understanding maintainer intent, plans, and constraints.
+4. Reading contribution guides, engineering rules, and project conventions.
+5. Confirming that external contribution and any required agreements are allowed.
+6. Searching issues, Pull Requests, branches, and commits to avoid duplicate work.
+7. Defining the problem boundary, contribution scope, and acceptance criteria.
+8. Obtaining the source and establishing a reproducible baseline.
+9. Preparing dependencies, build tooling, and the test environment.
+10. Reproducing the original problem before changing code.
+11. Reading the relevant architecture, call paths, and data flow.
+12. Determining the root cause rather than only treating a symptom.
+13. Designing and implementing the smallest project-compatible fix.
+14. Checking compatibility, error paths, edge cases, and platform behavior.
+15. Adding regression coverage for the reported behavior.
+16. Running targeted tests, full tests, builds, formatting, and static checks as required.
+17. Reviewing the final diff, commits, artifacts, and change boundaries.
+18. Preparing a clear Pull Request with the problem, approach, and verification evidence.
+19. Following CI, maintainer review, requested changes, rebases, and merge conflicts.
+20. Confirming the merged state and retaining publicly verifiable records.
+
+The difficult part is therefore not merely generating a function. It is maintaining sound judgment across problem selection, repository rules, environment setup, implementation, validation, communication, and follow-through until the result is genuinely deliverable. Slai treats public contributions not as a count of submissions, but as a real-world test of whether an Agent can complete a reviewable engineering loop.
+
 When this index was refreshed on **2026-10-30 (UTC+08:00)**, GitHub's public `author:huong8373tt-beep is:pr is:merged` query returned **115 merged Pull Requests** authored by this account.
 
 The engineering work covers reliability, type safety, evaluator correctness, Windows compatibility, testing, cloud configuration, compiled-kernel correctness, storage behavior, mobile accessibility, runtime policy enforcement, OpenTelemetry compatibility, and CLI configuration behavior.
