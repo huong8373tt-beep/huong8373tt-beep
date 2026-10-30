@@ -128,7 +128,7 @@ The engineering work covers reliability, type safety, evaluator correctness, Win
 ## Public benchmark and run records
 
 - **[Harbor Hub public job records](https://hub.harborframework.com/users/huong8373tt-beep/jobs):** 155 published jobs, including the complete 89-task Terminal-Bench 2.1 run and five-run records for 63 Terminal-Bench 4.0 tasks.
-- **[Terminal-Bench 2.1 #217](https://github.com/harbor-framework/terminal-bench-2-1/pull/217):** public Terminal-Bench submission record.
+- **[Terminal-Bench 2.1 #216](https://github.com/harbor-framework/terminal-bench-2-1/pull/216):** public Terminal-Bench submission record.
 - **[SWE-bench-Live MultiLang C++ #63](https://github.com/SWE-bench-Live/submission/pull/63):** public SWE-bench-Live submission record for the multi-language C++ benchmark.
 - **[SWE-bench-Live Python Lite #66](https://github.com/SWE-bench-Live/submission/pull/66):** public SWE-bench-Live submission record for the 300-task Python Lite subset.
 
