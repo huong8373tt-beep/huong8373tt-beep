@@ -154,6 +154,12 @@ The engineering work covers reliability, type safety, evaluator correctness, Win
 | OpenTelemetry Kotlin | [#1324](https://github.com/open-telemetry/opentelemetry-kotlin/pull/1324) | Reports lifecycle-operation failure for non-SDK tracer and logger providers. |
 | AMD GAIA | [#5808](https://github.com/amd/gaia/pull/5808), [#5814](https://github.com/amd/gaia/pull/5814) | Recognizes contracted negation in claims and stabilizes Windows pip stuck-detection coverage. |
 
+### Upstream release acknowledgement
+
+**A public upstream milestone for Slai.** AMD's official [GAIA v0.25.2 release notes](https://github.com/amd/gaia/releases/tag/v0.25.2) list [@huong8373tt-beep](https://github.com/huong8373tt-beep) in the **Contributors** section and summarize work included in the release: relative workspace writes, card and PIN masking, Memory and embedder-download fixes, MCP process tracking, Windows state-file retries, finite performance totals, CLI checks, evaluator claim parsing, documentation, and test and CI reliability.
+
+This is recorded as a small, publicly verifiable moment of upstream recognition for Slai. The contribution work was not only merged upstream; it was also credited in official release notes.
+
 ## Public benchmark and run records
 
 - **[Harbor Hub public job records](https://hub.harborframework.com/users/huong8373tt-beep/jobs):** 155 published jobs, including the complete 89-task Terminal-Bench 2.1 run and five-run records for 63 Terminal-Bench 4.0 tasks.
