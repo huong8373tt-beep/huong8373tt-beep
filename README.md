@@ -8,7 +8,7 @@ It can be deployed in two forms:
 
 - An **account-isolated, multi-tenant server Runtime**. One continuously running process can serve multiple accounts while keeping their work and resources separate. It can coordinate the computers, Android devices, server nodes, and other connected resources authorized for each account while continuing long-running work.
 
-Both deployment forms provide the same core capabilities: multiple interaction channels—including web interfaces, applications, WeChat, QQ, Feishu, and voice—cross-platform operations, understanding goals, investigating problems, making plans, using tools, carrying work forward, checking results, and operating across authorized platforms and devices.
+Both deployment forms provide the same core capabilities: multiple interaction channels—including web interfaces, applications, social platforms, and voice—cross-platform operations, understanding goals, investigating problems, making plans, using tools, carrying work forward, checking results, and operating across authorized platforms and devices.
 
 A task can start on one device, use another authorized node for platform-specific work, and return its logs, artifacts, and follow-up work to the same account.
 
