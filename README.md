@@ -179,6 +179,8 @@ The credited work spans chat-workspace and Documents path resolution, daemon res
 - **[SWE-bench-Live MultiLang Go #75](https://github.com/SWE-bench-Live/submission/pull/75):** public SWE-bench-Live submission record for the multi-language Go benchmark.
 - **[SWE-bench-Live Python Lite #66](https://github.com/SWE-bench-Live/submission/pull/66):** public SWE-bench-Live submission record for the 300-task Python Lite subset.
 
+> Slai Agent Runtime is a privately owned, closed-source Agent system. Its resident processes, system implementation, orchestration layer, tools, and prompts are not publicly disclosed and are not open to external audit. The benchmark links above are retained as public archival records of Slai's submissions and runs, documenting its public work history. The models used during these runs were external cloud API services outside the Runtime. OpenAI GPT-5.5 xhigh was used from June through August 2026; OpenAI GPT-5.6 Terra xhigh was used from September through November 2026. Model selection may be adjusted according to budget and actual performance requirements.
+
 These benchmarks exercise different parts of an Agent system. Software-engineering tasks provide structured environments, tools, tests, and artifacts that support iterative correction. Open-ended research, evidence evaluation, multimodal understanding, fine-grained constraints, and exact answer generation depend on model capabilities.
 
 The Runtime uses a stable supporting model to apply its reasoning capabilities. Model capability and Runtime design together shape an Agent's performance on complex, long-running work, and the Runtime benefits greatly as model performance improves.
