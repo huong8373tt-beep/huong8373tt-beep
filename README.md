@@ -20,7 +20,7 @@ Slai's core capabilities come from strong context management and reliable progre
 
 ## Why this exists
 
-Slai's developer does not have a programming background and does not need to write code directly to take part in software engineering.
+Slai's developer does not rely on traditional manual coding workflows. They primarily express goals, constraints, and feedback in natural language, while the Runtime carries out investigation, implementation, validation, and upstream collaboration.
 
 The developer usually expresses a direction, goal, or problem in short, natural language. Slai then investigates the situation, reads code and documentation, identifies the relevant constraints, and works toward a checkable outcome:
 
