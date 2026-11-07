@@ -20,9 +20,7 @@ Slai's core capabilities come from strong context management and reliable progre
 
 ## Why this exists
 
-Slai's developer does not rely on traditional manual coding workflows. They primarily express goals, constraints, and feedback in natural language, while the Runtime carries out investigation, implementation, validation, and upstream collaboration.
-
-The developer usually expresses a direction, goal, or problem in short, natural language. Slai then investigates the situation, reads code and documentation, identifies the relevant constraints, and works toward a checkable outcome:
+Slai's developer does not rely on traditional manual coding workflows. They typically express direction, goals, problems, constraints, and feedback in concise, natural language, while the Slai Agent Runtime investigates the relevant code and documentation, identifies constraints, implements necessary changes, and uses tests, builds, and, where applicable, upstream collaboration to work toward verifiable engineering results.
 
 ```text
 Goal or problem
