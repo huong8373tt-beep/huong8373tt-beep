@@ -16,7 +16,7 @@ Slai is not tied to any single model provider. Deployments can use mainstream
 standard-compatible model APIs, while task execution, tool use, device
 coordination, and result checking remain in the Runtime.
 
-Slai's core capabilities come from strong context management and reliable progress on the main task. The Runtime keeps execution aligned with the user's instructions and the ongoing task.
+Slai's core capabilities stem from strong context management and reliable main-task progress control. The Runtime environment keeps execution aligned with the user's instructions and the current task. Slai's continuity in long-running tasks does not depend on the size of a model's context window; it is supported by the Runtime's own context-management mechanisms. A model's context window primarily affects its capacity for individual processing. Expanding the window usually also increases inference costs and may introduce more interference from irrelevant information with effective attention. Unlike the default path of continually expanding context windows, Slai takes a different engineering approach, decoupling long-task continuity and progress control from the model context window at the system level.
 
 ## Why this exists
 
