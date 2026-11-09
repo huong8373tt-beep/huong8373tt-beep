@@ -111,6 +111,8 @@ The difficult part is therefore not merely generating a function. It is maintain
 
 When this index was refreshed on **2026-11-07 (UTC+08:00)**, GitHub's public `author:huong8373tt-beep is:pr is:merged` query returned **257 merged Pull Requests** authored by this account.
 
+> **Current status:** GitHub contribution activity is paused; whether it resumes later will depend on circumstances.
+
 The engineering work covers reliability, type safety, evaluator correctness, Windows compatibility, testing, cloud configuration, compiled-kernel correctness, storage behavior, mobile accessibility, runtime policy enforcement, OpenTelemetry compatibility, CLI configuration behavior, security scanning, process lifecycle handling, and SDK authentication.
 
 ### Recent merged contributions
