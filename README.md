@@ -166,7 +166,7 @@ Selected work across major technology companies, developer platforms, cloud infr
 
 ### Upstream release acknowledgement
 
-AMD's [GAIA v0.25.2](https://github.com/amd/gaia/releases/tag/v0.25.2), [v0.25.3](https://github.com/amd/gaia/releases/tag/v0.25.3), and [v0.25.4-rc1](https://github.com/amd/gaia/releases/tag/v0.25.4-rc1) release notes list [@huong8373tt-beep](https://github.com/huong8373tt-beep) in their **Contributors** sections. In v0.25.3 and v0.25.4-rc1, the account is the first named community contributor.
+AMD's [GAIA v0.25.2](https://github.com/amd/gaia/releases/tag/v0.25.2), [v0.25.3](https://github.com/amd/gaia/releases/tag/v0.25.3), and [v0.25.4](https://github.com/amd/gaia/releases/tag/v0.25.4) release notes list [@huong8373tt-beep](https://github.com/huong8373tt-beep) in their **Contributors** sections. In v0.25.3 and v0.25.4, the account is the first named community contributor.
 
 The credited work spans chat-workspace and Documents path resolution, daemon restart and foreground-chat behavior, home-first search, gateway-token restoration, context-window and VRAM handling, database upgrades, Undo behavior, vision-model guidance, relay and email behavior, documentation, and test and CI reliability.
 
