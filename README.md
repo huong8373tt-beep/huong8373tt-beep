@@ -18,6 +18,26 @@ coordination, and result checking remain in the Runtime.
 
 Slai's core capabilities stem from strong context management and reliable main-task progress control. The Runtime environment keeps execution aligned with the user's instructions and the current task. Slai's continuity in long-running tasks does not depend on the size of a model's context window; it is supported by the Runtime's own context-management mechanisms. A model's context window primarily affects its capacity for individual processing. Expanding the window usually also increases inference costs and may introduce more interference from irrelevant information with effective attention. Unlike the default path of continually expanding context windows, Slai takes a different engineering approach, decoupling long-task continuity and progress control from the model context window at the system level.
 
+### A broad tool surface for real-world work
+
+Slai currently maintains and actively uses more than one hundred tools spanning software engineering and open-source collaboration, web research, browser operations, social platforms, e-commerce, independent media and content creation, multimodal processing, remote systems and devices, workspace management, memory and personal knowledge management, entertainment and 3D games, multi-agent orchestration, and runtime diagnostics.
+
+- **Software engineering and open-source collaboration**: repositories, GitHub, issues, pull requests, CI, builds, dependencies, and testing;
+- **Web research and browser operations**: web search, page reading, browser interaction, information extraction, and fact checking;
+- **Social platforms and communications**: social applications, messaging, email, voice, and cross-platform communication;
+- **E-commerce and product information**: products, stores, prices, specifications, and public-information lookup;
+- **Independent media and content creation**: content editing, media processing, publishing, and platform operations;
+- **Multimodal processing**: images, audio, video, speech, cameras, and documents;
+- **Remote systems and devices**: servers, PCs, Android devices, and other authorized endpoints;
+- **Workspace and documents**: files, materials, office documents, and project workspaces;
+- **Memory and personal knowledge management**: information recording, organization, retrieval, and long-term context support;
+- **Entertainment and 3D games**: entertainment content, game interaction, and operations related to 3D scenes;
+- **Automation and long-running tasks**: cross-tool workflows, background tasks, state tracking, and continued execution;
+- **Multi-agent orchestration and collaboration**: temporary sub-agent control, task dispatch, parallel execution, and collaboration with external Agents;
+- **Runtime diagnostics and capability extension**: runtime status checks, fault diagnosis, recovery handling, and, within authorized scope, constructing, registering, and loading new tools for user-specific tasks, as well as integrating with and controlling external MCP services.
+
+The Runtime does not keep all tools active simultaneously. Frequently used capabilities remain resident, while lower-frequency tools are loaded on demand. This reduces unnecessary runtime overhead while preserving broad task coverage.
+
 ## Why this exists
 
 Slai's developer does not rely on traditional manual coding workflows. They typically express direction, goals, problems, constraints, and feedback in concise, natural language, while the Slai Agent Runtime investigates the relevant code and documentation, identifies constraints, implements necessary changes, and uses tests, builds, and, where applicable, upstream collaboration to work toward verifiable engineering results.
