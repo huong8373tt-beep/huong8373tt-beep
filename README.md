@@ -14,6 +14,22 @@ The developer's role is to provide direction, goal descriptions, and feedback fr
 
 This is an ongoing experiment in human–AI collaboration: lowering the knowledge barrier that keeps many people from participating in real software engineering, while using AI to carry ideas through to implementations, tests, contributions, and results.
 
+Over the past six months, Slai has also been compared in practical use and long-running task execution with Agent Runtimes developed by several major technology companies. These comparisons are not formal public benchmarks and do not constitute an independently audited ranking. Based on sustained use and real task feedback, however, we are confident that Slai is capable of competing with and being meaningfully evaluated alongside leading Agent Runtimes.
+
+This capability is not limited to token efficiency and sustained execution across long, multi-step tasks. It also includes:
+
+- Continuity of work for personal and enterprise general-purpose AI assistants over long time horizons;
+- Understanding user goals, intent, and context;
+- Turning natural-language goals into practical results;
+- Coordination across platforms, devices, and runtime environments;
+- Unified orchestration of diverse tools, services, and external systems;
+- State retention, fault recovery, and task resumption during long-running work;
+- Result verification, evidence preservation, and traceability;
+- User experience, interaction efficiency, and a low barrier to using complex capabilities;
+- Balancing capability, cost, speed, and reliability;
+- Continuously adapting, maintaining, and improving its working methods through user feedback.
+
+Slai is less concerned with one-off question-and-answer performance than with whether an Agent can continue participating in real-world work after a user provides a goal, direction, and constraints鈥攁nd carry that work through to a verifiable, deliverable result. We welcome conversations with research and engineering teams interested in Agent Runtimes, long-term personal and enterprise AI assistants, cross-platform agents, AI engineering productivity, and human鈥揂I collaboration. We are open to practical evaluation, comparison, and technical exchange.
 ## Model training and capability research
 
 Slai Agent Runtime primarily uses cloud-model APIs for engineering work today. [Slai Model Lab](https://github.com/huong8373tt-beep/slai.life-model-lab-docs) is a separate private system for training, model runtime, and experimentation. It explores a longer-term direction in which individuals can train, operate, and evaluate more of their own models as personal compute, hardware efficiency, and accessible models improve.
