@@ -1,43 +1,3 @@
-# Slai Agent Runtime
-
-Slai is a privately developed, cross-platform Agent Runtime for work that needs to continue beyond a single conversation, device, or session.
-
-It can be deployed in two forms:
-
-- A **personal long-running Agent Runtime**, deployable on Windows, Linux, macOS, and Android. A personal deployment can coordinate authorized devices across platforms. For example, a Windows deployment can work with Linux, macOS, and Android devices, while an Android deployment can delegate larger or longer-running tasks to other platforms.
-
-- An **account-isolated, multi-tenant server Runtime**. One continuously running process can serve multiple accounts while keeping their work and resources separate. It can coordinate the computers, Android devices, server nodes, and other connected resources authorized for each account while continuing long-running work.
-
-Both deployment forms provide the same core capabilities: multiple interaction channels—including web interfaces, applications, social platforms, and voice—cross-platform operations, understanding goals, investigating problems, making plans, using tools, carrying work forward, checking results, and operating across authorized platforms and devices.
-
-A task can start on one device, use another authorized node for platform-specific work, and return its logs, artifacts, and follow-up work to the same account.
-
-Slai is not tied to any single model provider. Deployments can use mainstream
-standard-compatible model APIs, while task execution, tool use, device
-coordination, and result checking remain in the Runtime.
-
-Slai's core capabilities stem from strong context management and reliable main-task progress control. The Runtime environment keeps execution aligned with the user's instructions and the current task. Slai's continuity in long-running tasks does not depend on the size of a model's context window; it is supported by the Runtime's own context-management mechanisms. A model's context window primarily affects its capacity for individual processing. Expanding the window usually also increases inference costs and may introduce more interference from irrelevant information with effective attention. Unlike the default path of continually expanding context windows, Slai takes a different engineering approach, decoupling long-task continuity and progress control from the model context window at the system level.
-
-### A broad tool surface for real-world work
-
-Slai currently maintains and actively uses more than one hundred tools spanning software engineering and open-source collaboration, web research, browser operations, social platforms, e-commerce, independent media and content creation, multimodal processing, remote systems and devices, workspace management, memory and personal knowledge management, entertainment and 3D games, multi-agent orchestration, and runtime diagnostics.
-
-- **Software engineering and open-source collaboration**: repositories, GitHub, issues, pull requests, CI, builds, dependencies, and testing;
-- **Web research and browser operations**: web search, page reading, browser interaction, information extraction, and fact checking;
-- **Social platforms and communications**: social applications, messaging, email, voice, and cross-platform communication;
-- **E-commerce and product information**: products, stores, prices, specifications, and public-information lookup;
-- **Independent media and content creation**: content editing, media processing, publishing, and platform operations;
-- **Multimodal processing**: images, audio, video, speech, cameras, and documents;
-- **Remote systems and devices**: servers, PCs, Android devices, and other authorized endpoints;
-- **Workspace and documents**: files, materials, office documents, and project workspaces;
-- **Memory and personal knowledge management**: information recording, organization, retrieval, and long-term context support;
-- **Entertainment and 3D games**: entertainment content, game interaction, and operations related to 3D scenes;
-- **Automation and long-running tasks**: cross-tool workflows, background tasks, state tracking, and continued execution;
-- **Multi-agent orchestration and collaboration**: temporary sub-agent control, task dispatch, parallel execution, and collaboration with external Agents;
-- **Runtime diagnostics and capability extension**: runtime status checks, fault diagnosis, recovery handling, and, within authorized scope, constructing, registering, and loading new tools for user-specific tasks, as well as integrating with and controlling external MCP services.
-
-The Runtime does not keep all tools active simultaneously. Frequently used capabilities remain resident, while lower-frequency tools are loaded on demand. This reduces unnecessary runtime overhead while preserving broad task coverage.
-
 ## Why this exists
 
 Slai's developer does not rely on traditional manual coding workflows. They typically express direction, goals, problems, constraints, and feedback in concise, natural language, while the Slai Agent Runtime investigates the relevant code and documentation, identifies constraints, implements necessary changes, and uses tests, builds, and, where applicable, upstream collaboration to work toward verifiable engineering results.
@@ -61,30 +21,6 @@ Slai Agent Runtime primarily uses cloud-model APIs for engineering work today. [
 The systems are complementary: Runtime work can organize structured task experience, while Model Lab studies how selected private experience can be reviewed, used for training, and evaluated before informing later Runtime work. Its experiments span text, speech, image, video, multimodal, and homegrown models.
 
 Together, they develop the training, model-operation, and evaluation foundations for future personal AI systems.
-
-## Local runtime and cloud control plane
-
-Slai can run on, or connect to:
-
-```text
-Windows · Linux · macOS · Android
-```
-
-Local deployments support conversation, research, file and browser work, authorized desktop or device operations, builds, tests, evaluations, and open-source collaboration.
-
-### Multi-agent and authorized-device coordination
-
-The runtime has native foreground/background agent coordination. A task can move between runtime instances, ports, and authorized cross-platform nodes, then return its results and follow-up work to the same project. Authorized Android devices can provide device operations; registered Linux servers can provide controlled builds, tests, downloads, and maintenance work.
-
-### Long-running work
-
-A work thread can continue through tool runs, test failures, CI waits, reviews, checkpoints, and recoverable restarts for hours or days; a project can be maintained across days or months. The ongoing task is preserved across sessions, allowing authorized users to view or continue it from another connected device.
-
-In observed continuous, non-cold-start work, stable requests and provider prompt-cache reuse can yield roughly **95–99%** input-token cache hits, varying by provider, model, and task.
-
-### Cloud control plane
-
-An optional server deployment can stay online to coordinate an account's authorized nodes and route platform-specific work without depending on one foreground device. With account-owner direction and authorization, Slai can carry work from investigation and implementation through validation, Pull Request follow-up, and record keeping. A queued task, a running job, and a verified result are treated as different states.
 
 ## Public upstream contributions
 
