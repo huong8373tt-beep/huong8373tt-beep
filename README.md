@@ -97,13 +97,11 @@ The full contribution history is intentionally not reproduced here. Selected exa
 
 When this index was refreshed on **2026-11-23 (UTC+08:00)**, GitHub's public `author:huong8373tt-beep is:pr is:merged` query returned **287 merged Pull Requests** authored by this account. This number is a current search snapshot rather than a permanent total; the representative links above are examples, not a complete contribution index.
 
-> **Current status:** GitHub contribution activity is paused; whether it resumes later will depend on circumstances.
-
 ### Upstream release acknowledgement
 
-AMD's [GAIA v0.25.2](https://github.com/amd/gaia/releases/tag/v0.25.2), [v0.25.3](https://github.com/amd/gaia/releases/tag/v0.25.3), and [v0.25.4](https://github.com/amd/gaia/releases/tag/v0.25.4) release notes list [@huong8373tt-beep](https://github.com/huong8373tt-beep) in their **Contributors** sections. In v0.25.3 and v0.25.4, the account is the first named community contributor.
+AMD's [GAIA v0.25.2](https://github.com/amd/gaia/releases/tag/v0.25.2), [v0.25.3](https://github.com/amd/gaia/releases/tag/v0.25.3), [v0.25.4](https://github.com/amd/gaia/releases/tag/v0.25.4), and [v0.26.0](https://github.com/amd/gaia/releases/tag/v0.26.0) release notes each credit [@huong8373tt-beep](https://github.com/huong8373tt-beep) in their **Contributors** sections. The account is the first named contributor in v0.25.3 and v0.25.4; v0.26.0 continues the acknowledgement.
 
-The credited work spans chat-workspace and Documents path resolution, daemon restart and foreground-chat behavior, home-first search, gateway-token restoration, context-window and VRAM handling, database upgrades, Undo behavior, vision-model guidance, relay and email behavior, documentation, and test and CI reliability.
+Across these releases, the credited work spans workspace and Documents path handling, update and relay behavior, context-window and VRAM handling, per-agent tool scope and safety checks, email, memory, RAG, documentation, and test and CI reliability.
 
 
 ## Public benchmark and run records
